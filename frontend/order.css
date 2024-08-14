@@ -1,0 +1,102 @@
+/* Tracking Page Styles */
+.tracking-container {
+    padding: 80px 20px 20px; /* Adjust top padding to avoid overlap with the navbar */
+    background-color: #f8f9fa;
+    min-height: 100vh; /* Ensure the container takes full viewport height */
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .tracking-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .tracking-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .tracking-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tracking-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  .tracking-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #428f9e;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .tracking-button:hover {
+    background-color:  #428f9e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tracking-details, .faq-section, .customer-support {
+    margin-top: 40px;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .tracking-details h2, .faq-section h2, .customer-support h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .tracking-details p, .faq-section ul, .customer-support p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .faq-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .faq-section li {
+    margin-bottom: 10px;
+  }
+  
+  .faq-section li::before {
+    content: '• ';
+    color:  #428f9e;
+  }
+  
+  .customer-support a {
+    color:  #428f9e;
+    text-decoration: none;
+  }
+  
+  .customer-support a:hover {
+    text-decoration: underline;
+  }

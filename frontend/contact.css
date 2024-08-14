@@ -1,0 +1,109 @@
+.form-and-info {
+    display: flex;
+    justify-content: flex-start; /* Updated */
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0 auto;
+    margin-right: -100px;
+    max-width: 1200px;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px; /* Updated */
+    width: 450px;
+    margin-top: 30px;
+    margin-left: -60px;
+  }
+  
+  .info-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:  rgb(91, 88, 88);
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: whitesmoke;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    width: 550px; /* Increase form width */
+    margin-right: 90px;
+  }
+  
+  .event-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 50px;
+  }
+  
+  .event-form input,
+  .event-form select,
+  .event-form textarea,
+  .event-form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px); /* Ensure all elements have the same width accounting for padding and border */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+  }
+  
+  .event-form .form-group {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  
+  .event-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .event-form button {
+    background-color: rgb(91, 88, 88);
+    color: whitesmoke;
+   
+    cursor: pointer;
+  }
+  
+  .event-form button:hover {
+    background-color: rgb(91, 88, 88);
+  }
+  
+  .pink img {
+    height: 600px;
+    width: 100%;
+  }
+  
+  .pep p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+  }
